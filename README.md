@@ -10,6 +10,17 @@ practices, and can capture report screenshots through the Power BI Desktop Bridg
 **Local only.** It talks to the Power BI Desktop running on your own machine. It does not use the Microsoft
 cloud, Power BI Service, or Fabric.
 
+## The book built with this tool
+
+PowerBITool is the engine behind a free book: **[The Data Analyst Who Pretends to Work](https://github.com/Graphene-Lab/the-data-analyst-who-pretends-to-work/)** — *The Book Your Boss Shouldn't Know Exists*.
+
+It is a plain-English book about what a data analyst really does, and how an AI assistant changes the job.
+Every table, measure, and chart in it was produced by talking to **AgentBridge** driving **PowerBITool** on a
+live Power BI Desktop model — exactly the tool this README describes. It is available in six languages
+(English, Italian, French, Spanish, German, Russian), with the reader PDF, EPUB, and print PDF in the repo.
+
+If you want to see what people actually build with PowerBITool, start there.
+
 ## What it can do
 
 - **Connect** to the running Power BI Desktop model (auto-discovers the local engine port).
