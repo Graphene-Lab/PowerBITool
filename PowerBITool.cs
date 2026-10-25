@@ -26,6 +26,7 @@ namespace PowerBIToolNS;
 /// SCOPE: only the semantic model is reachable through the local endpoint. Report pages
 /// and visuals (the report canvas) cannot be read or changed over this connection.
 /// </summary>
+[ToolPurpose(ToolPurpose.BusinessIntelligence)]
 public partial class PowerBITool : BaseAgentTool
 {
     public override bool SupportsAsyncTasks => true;
